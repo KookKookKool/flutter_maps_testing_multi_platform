@@ -14,7 +14,7 @@ A new Flutter project.
 
 ## ตัวอย่างหน้าจอ
 
-![screenshot](assets/Screenshot.png)
+![screenshot](assets/screenshot.png)
 
 ## วิธีใช้งาน
 

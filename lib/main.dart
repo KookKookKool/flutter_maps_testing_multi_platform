@@ -45,10 +45,15 @@ class _MyAppState extends State<MyApp> {
                             _showInfo = !_showInfo;
                           });
                         },
-                        child: const Icon(
-                          Icons.location_on,
-                          color: Colors.red,
-                          size: 40,
+                        child: Image.asset(
+                          'assets/pin.png',
+                          width: 40,
+                          height: 40,
+                          errorBuilder: (context, error, stackTrace) => Icon(
+                            Icons.location_on,
+                            color: Colors.red,
+                            size: 40,
+                          ),
                         ),
                       ),
                     ),
